@@ -1,28 +1,26 @@
-.container {
-  background-color: red;
-  padding: 1rem;
+.global {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column nowrap;
   gap: 1rem;
+  background-color: rgba(0, 0, 0, 0.437);
+  padding: 1rem;
 }
-.columna {
-  text-align: center;
+.row {
 }
-.container-2 {
+.col {
   display: flex;
   gap: 1rem;
 }
 .btns {
   padding: 1rem;
-  background-color: green;
+  background-color: blue;
   color: white;
   cursor: pointer;
 }
-
-h1,
-h2 {
+h3,
+h4 {
   color: white;
   margin: 0;
 }
